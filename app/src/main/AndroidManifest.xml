@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/style_mirror_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StyleMirror_1_1"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activity.activity_login"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_search"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_forget_password"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_cosmetics_list"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_specs_list"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_fav_items"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_shoes_list"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_explorer"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_register"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.activity_splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
